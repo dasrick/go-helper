@@ -8,9 +8,9 @@ go:
   - 1.11.x
 #  - 1.12.x
 
-# Skip the install step. Don't `go get` dependencies. Only build with the code
-# in vendor/
-install: true
+install:
+#  - go get github.com/mattn/goveralls
+  - go get -u golang.org/x/lint/golint
 
 script:
   - make lint
