@@ -8,7 +8,7 @@
 
 ## Why
 
-After writing the same line code over and over again, I came to the conclusion to pack everything into a package
+After writing the same lines of code over and over again, I came to the conclusion to pack everything into a package ...
 
 ## ToDos
 
