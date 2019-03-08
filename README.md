@@ -1,3 +1,5 @@
+[![License][license-image]][license-url]
+
 ***
 
 # tox go-helper
@@ -20,3 +22,6 @@ After writing the same lines of code over and over again, I came to the conclusi
 * ...
 
 ***
+
+[license-image]: https://img.shields.io/github/license/dasrick/go-helper.svg?style=flat-square
+[license-url]: https://github.com/dasrick/go-helper/blob/master/LICENSE
