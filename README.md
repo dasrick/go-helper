@@ -1,5 +1,6 @@
 [![Build Status][travis-image]][travis-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
+[![Maintainability][codeclimate-image]][codeclimate-url]
 [![Go Report Card][goreport-image]][goreport-url]
 [![GoDoc][godoc-image]][godoc-url]
 [![License][license-image]][license-url]
@@ -32,6 +33,9 @@ For more details, see the [API documentation][godoc-url].
 
 [coveralls-image]: https://coveralls.io/repos/github/dasrick/go-helper/badge.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/dasrick/go-helper?branch=master
+
+[codeclimate-image]: https://api.codeclimate.com/v1/badges/fe69cc992370b3f97d94/maintainability
+[codeclimate-url]: https://codeclimate.com/github/dasrick/go-helper/maintainability
 
 [goreport-image]: https://goreportcard.com/badge/github.com/dasrick/go-helper
 [goreport-url]: https://goreportcard.com/report/github.com/dasrick/go-helper
