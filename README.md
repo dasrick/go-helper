@@ -10,20 +10,20 @@
 
 > A swiss army knife for golang
 
-...
+Why: After writing the same lines of code over and over again, I came to the conclusion to pack everything into a package ...
 
-## Why
+## Getting started
 
-After writing the same lines of code over and over again, I came to the conclusion to pack everything into a package ...
+To get the package, execute:
 
-## ToDos
-
-* short useful readme
-* tests via travis + badge
-* coverage via coveralls + badge
-* badge of go report
-* badge of godoc
-* ...
+```
+go get gopkg.in/dasrick/go-helper.v1
+```
+To import this package, add the following line to your code:
+```
+import "gopkg.in/dasrick/go-helper.v1"
+```
+For more details, see the [API documentation][godoc-url].
 
 ***
 
