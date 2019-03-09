@@ -19,4 +19,8 @@ script:
   - make test
   - make race
   - make coverage
+  - go test $(shell go list ./... | grep -v /vendor/) -race -coverprofile=coverage.txt -covermode=atomic
+
+after_success:
   - $GOPATH/bin/goveralls -service=travis-ci
+  - bash <(curl -s https://codecov.io/bash)

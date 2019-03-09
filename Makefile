@@ -18,7 +18,7 @@ race: dep ## Run data race detector
 	@go test -race -short ${LIST_ALL}
 
 coverage: dep # Generate coverage report
-	@go test ${LIST_ALL}  -coverprofile coverage.out
+	@go test ${LIST_ALL} -coverprofile coverage.out
 	@go tool cover -func coverage.out
 
 report: coverage # Open the coverage report in browser
