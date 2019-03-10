@@ -7,16 +7,16 @@ import (
 	"testing"
 )
 
-type testStruct struct {
-	ContractID string `json:"Id" validate:"required"`
+type testValidationStruct struct {
+	WahteverID string `json:"Id" validate:"required"`
 }
 
 func TestHandler(t *testing.T) {
 	validJSONbyte := []byte(`{"Id":"this-property-is-required"}`)
 	invalidJSONbyte := []byte(`{"useless":"property"}`)
-	validStruct := &testStruct{}
-	invalidStruct := &testStruct{}
-	_ = json.Unmarshal(validJSONbyte, validStruct)
+	validStruct := &testValidationStruct{}
+	invalidStruct := &testValidationStruct{}
+	_ = json.Unmarshal(validJSONbyte, &validStruct)
 	_ = json.Unmarshal(invalidJSONbyte, invalidStruct)
 
 	var tests = []struct {
