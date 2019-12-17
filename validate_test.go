@@ -2,9 +2,10 @@ package gohelper
 
 import (
 	"encoding/json"
-	"github.com/stretchr/testify/assert"
-	"gopkg.in/go-playground/validator.v9"
 	"testing"
+
+	"github.com/go-playground/validator/v10"
+	"github.com/stretchr/testify/assert"
 )
 
 type testValidationStruct struct {

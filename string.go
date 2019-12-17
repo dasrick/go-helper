@@ -1,17 +1,13 @@
 package gohelper
 
 // StringDeduplicate ... deduplicate a slice of strings
-func StringDeduplicate(s []string) []string {
-	if len(s) == 0 {
-		return s
-	}
-
+func StringDeduplicate(ss []string) []string {
 	result := make([]string, 0)
 	seen := make(map[string]string)
-	for _, val := range s {
-		if _, ok := seen[val]; !ok {
-			result = append(result, val)
-			seen[val] = val
+	for i := range ss {
+		if _, ok := seen[ss[i]]; !ok {
+			result = append(result, ss[i])
+			seen[ss[i]] = ss[i]
 		}
 	}
 	return result
