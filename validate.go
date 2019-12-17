@@ -1,6 +1,6 @@
 package gohelper
 
-import "gopkg.in/go-playground/validator.v9"
+import "github.com/go-playground/validator/v10"
 
 var validate *validator.Validate
 
