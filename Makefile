@@ -2,7 +2,7 @@ LIST_ALL := $(shell go list ./... | grep -v /vendor/)
 
 # Force using Go Modules and always read the dependencies from
 # the `vendor` folder.
-#export GO111MODULE = on
+export GO111MODULE = on
 #export GOFLAGS = -mod=vendor
 
 all: lint test
