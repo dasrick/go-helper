@@ -1,4 +1,6 @@
 [![Build Status][travis-image]][travis-url]
+[![GitHub release][githubrelease-image]][githubrelease-url]
+[![GitHub go.mod Go version][goversion-image]][goversion-url]
 
 [![Coverage Status][coveralls-image]][coveralls-url]
 [![Maintainability][codeclimate-image]][codeclimate-url]
@@ -21,11 +23,11 @@ Why: After writing the same lines of code over and over again, I came to the con
 To get the package, execute:
 
 ```
-go get gopkg.in/dasrick/go-helper.v1
+go get https://github.com/dasrick/go-helper/v2
 ```
 To import this package, add the following line to your code:
 ```
-import "gopkg.in/dasrick/go-helper.v1"
+import "github.com/dasrick/go-helper/v2"
 ```
 For more details, see the [API documentation][godoc-url].
 
@@ -51,3 +53,9 @@ For more details, see the [API documentation][godoc-url].
 
 [license-image]: https://img.shields.io/github/license/dasrick/go-helper.svg?style=flat
 [license-url]: https://github.com/dasrick/go-helper/blob/master/LICENSE
+
+[goversion-image]: https://img.shields.io/github/go-mod/go-version/dasrick/go-helper
+[goversion-url]: https://github.com/dasrick/go-helper
+
+[githubrelease-image]: https://img.shields.io/github/v/release/dasrick/go-helper
+[githubrelease-url]: https://github.com/dasrick/go-helper
