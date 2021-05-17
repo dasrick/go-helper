@@ -15,6 +15,10 @@ install: ## Install the dependencies
 update: ## Update the dependencies
 	@go mod tidy
 
+.PHONY: upgrade
+upgrade: ## Upgrade the dependencies
+	@go get -u -t ./...
+
 .PHONY: clean
 clean: ## Remove binaries and ZIP files based on directory `./cmd/`
 	@rm -rf "$(go env GOCACHE)"
